@@ -1,0 +1,242 @@
+/* !CSS Custom Properties (переменные) */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --second-color-logo-header: #000000;
+  --address-link-mail-phone-color: #ffffff99;
+  --bgc-team-section: #e5e5e5;
+  --bgc-features-doing-section-button-filters: #f5f4fa;
+  --background-color-hero-footer: #2f303a;
+}
+/* !CSS Custom Properties (переменные) */
+
+/* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.address-footer-list {
+  font-style: normal;
+}
+
+.hero-button,
+.filters-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+/* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+
+.menu-list-item-link {
+  color: var(--primary-text-color);
+}
+
+.top-contacts-item-link {
+  color: var(--secondary-text-color);
+}
+
+.header {
+  background-color: var(--primary-white-color);
+}
+
+.hero {
+  color: var(--primary-white-color);
+  background-color: var(--background-color-hero-footer);
+}
+
+.footer {
+  background-color: var(--background-color-hero-footer);
+}
+
+/* ? header */
+.header .accent {
+  color: var(--accent-color);
+}
+.header .logo {
+  color: var(--second-color-logo-header);
+}
+
+.menu-list .menu-item :hover,
+.menu-list .menu-item :focus {
+  color: var(--accent-color);
+}
+
+.top-contacts-list .top-contacts-item :hover,
+.top-contacts-list .top-contacts-item :focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+/* ? header */
+
+/* ? maine */
+.hero-button,
+.filters-button {
+  cursor: pointer;
+}
+
+.hero-title,
+.features-subtitle {
+  text-transform: uppercase;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.features-container,
+.we-doing-container {
+  background-color: var(--bgc-features-doing-section-button-filters);
+}
+
+.team-container {
+  background-color: var(--bgc-team-section);
+}
+/* ? maine */
+
+/* ? footer */
+.footer .accent {
+  color: var(--accent-color);
+}
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.address-link-place {
+  color: var(--primary-white-color);
+}
+.address-link-mail,
+.address-link-phone {
+  color: var(--address-link-mail-phone-color);
+}
+
+.address-footer-list :hover,
+.address-footer-list :focus {
+  color: var(--accent-color);
+}
+/* ? footer */
+
+/* TODO portfolio.html */
+/* ? main */
+.filters-item :hover,
+.filters-item :focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/* ? main */
+/* TODO portfolio.html */
+
+/* ? fonts */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.menu-container,
+.top-contacts-container {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.features-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 2.142;
+  letter-spacing: 0.03em;
+}
+
+.features-text,
+.address {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.we-doing-subtitle,
+.team-subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+
+.team-field-subtitle,
+.team-field-text {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.team-field-text {
+  color: var(--secondary-text-color);
+}
+
+/* TODO portfolio.html */
+.filters-list {
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.03em;
+}
+
+.name-project-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-category {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ? fonts */
+
+.filters-button {
+  background-color: var(--bgc-features-doing-section-button-filters);
+  border: none;
+  border-radius: 4px;
+}
+
+/* TODO portfolio.html */
