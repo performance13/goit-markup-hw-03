@@ -1,4 +1,3 @@
-/* !CSS Custom Properties (переменные) */
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -10,11 +9,18 @@
   --bgc-features-doing-section-button-filters: #f5f4fa;
   --background-color-hero-footer: #2f303a;
 }
-/* !CSS Custom Properties (переменные) */
 
 /* *ОТМЕНА СТИЛЕЙ ПО УМОЛЧАНИЮ */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
+  margin: 0;
 }
 
 a {
