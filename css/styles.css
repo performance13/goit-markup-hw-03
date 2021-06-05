@@ -81,7 +81,7 @@ body {
 }
 
 .container .logo {
-  padding: 24px 93px 25px 215px;
+  /* padding: 24px 93px 25px 215px; */
 }
 
 .menu-list {
@@ -129,6 +129,10 @@ body {
   width: 696px;
 }
 
+.features-subtitle {
+  margin-bottom: 10px;
+}
+
 .hero-title,
 .features-subtitle {
   text-transform: uppercase;
@@ -154,6 +158,10 @@ body {
 .features-item {
   width: 270px;
   height: 101px;
+  /* margin-right: 30px; */
+}
+
+.features-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -175,6 +183,10 @@ body {
   text-align: center;
 }
 
+.we-doing-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team .container {
   background-color: var(--bgc-team-section);
   margin-bottom: 200px;
@@ -190,6 +202,8 @@ body {
 .team-item {
   width: 270px;
   height: 368px;
+}
+.team-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -198,7 +212,7 @@ body {
 /*? footer */
 
 .footer-address .logo {
-  margin: 60px 1240px 20px 215px;
+  /* margin: 60px 1240px 20px 215px; */
 }
 
 .footer-address {
