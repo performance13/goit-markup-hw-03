@@ -32,6 +32,12 @@ a {
   font-style: normal;
 }
 
+.filters-button {
+  padding: 0;
+  border: 0;
+  color: inherit;
+  background-color: transparent;
+}
 /* .hero-button,
 .filters-button {
   padding: 0;
@@ -60,9 +66,9 @@ body {
 /*? header */
 .header-nav {
   background-color: var(--primary-white-color);
-  background-color: green;
+  background-color: rgb(159, 220, 159);
   width: 1600px;
-  height: 80px;
+  /* height: 80px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,7 +101,7 @@ body {
   color: var(--accent-color);
 }
 
-.top-contacts-list .top-contacts-itащщem :hover,
+.top-contacts-list .top-contacts-item :hover,
 .top-contacts-list .top-contacts-item :focus {
   color: var(--accent-color);
 }
@@ -137,11 +143,18 @@ body {
   display: inline-block;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  border: none;
+  /* border: none; */
+  border: 1px solid transparent;
   border-radius: 4px;
   margin: 30px 700px 200px 700px;
   width: 200px;
   height: 50px;
+}
+
+.features-item {
+  width: 270px;
+  height: 101px;
+  margin-right: 30px;
 }
 
 .features .container {
@@ -153,10 +166,20 @@ body {
   margin-bottom: 94px;
 }
 
+.we-doing-subtitle {
+  /* width: 376px; */
+  /* height: 42px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .team .container {
   background-color: var(--bgc-team-section);
   margin-bottom: 200px;
 }
+
 /* maine */
 
 /*? footer */
@@ -264,13 +287,30 @@ body {
 /*todo portfolio.html */
 /*? main */
 
-.container .portfolio {
-  margin-bottom: 94px;
-  /* width: 1600px; */
+.header-nav .container-direction {
+  background-color: var(--primary-white-color);
+  background-color: rgb(220, 191, 159);
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* height: 80px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.filters-item :hover,
+.container-direction {
+  margin-bottom: 94px;
+  width: 1600px;
+}
+
+/* .filters-item :hover,
 .filters-item :focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+} */
+
+.filters-list :hover,
+.filters-list :focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -282,10 +322,21 @@ body {
 
 /* fonts */
 .filters-list {
+  margin-bottom: 34px;
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   font-size: 16px;
   line-height: 0.022;
   /* line-height: 1.375; */
   letter-spacing: 0.03em;
+}
+
+.project-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+  height: 404px;
 }
 
 .name-project-item {
@@ -303,16 +354,32 @@ body {
 }
 /* fonts */
 
-.filters-button {
-  /* box-sizing: border-box; */
+/* .filters-button {
+  box-sizing: border-box;
   display: inline-block;
   background-color: var(--bgc-features-doing-section-button-filters);
   border: none;
   border-radius: 4px;
-  /* min-width: ; */
-  /* width: max-content; */
+  text-align: center;
   height: 38px;
   padding: 6px 22px;
+} */
+
+.filters-item {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: var(--bgc-features-doing-section-button-filters);
+  /* border: none; */
+  border: 1px solid transparent;
+  border-radius: 4px;
+  /* text-align: center; */
+  height: 38px;
+  padding: 6px 22px;
+  /* vertical-align: middle; */
+}
+
+.filters-item:not(:last-child) {
+  display: inline-block;
   margin-right: 30px;
 }
 
@@ -320,21 +387,21 @@ body {
   min-width: 73px;
 }
 
-.filters-button:last-child {
-  /* min-width: 130px; */
+.filters-item:nth-child(2) {
+  min-width: 128px;
 }
 
-/* .filters-item :not(:last-child) {
-} */
+.filters-item:nth-child(3) {
+  min-width: 145px;
+}
 
-/* .filter-item .filters-button:first-child {
-  display: inline-block;
-  padding: 60px 22px;
-  margin: 10px 10px;
-} */
-/* .filter-item .filters-button:nth-child(2) {
-  background-color: orange;
-} */
+.filters-item:nth-child(4) {
+  min-width: 103px;
+}
+
+.filters-item:last-child {
+  min-width: 130px;
+}
 
 /*todo portfolio.html */
 
@@ -343,8 +410,8 @@ body {
   outline: 2px solid tomato;
 }
 
-.container .portfolio {
-  outline: 2px solid tomato;
+.header-nav .container-direction {
+  outline: 4px solid rgb(233, 45, 12);
 }
 
 .features .container,
@@ -362,5 +429,5 @@ body {
 }
 
 .portfolio .container {
-  outline: 2px solid tomato;
+  outline: 2px solid rgb(99, 71, 255);
 }
