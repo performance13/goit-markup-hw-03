@@ -180,7 +180,7 @@ body {
 .features .container,
 .we-doing .container {
   background-color: var(--bgc-features-doing-section-button-filters);
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .we-doing {
