@@ -140,7 +140,7 @@ body {
 }
 
 .hero-button {
-  display: inline-block;
+  /* display: inline-block; */
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   /* border: none; */
