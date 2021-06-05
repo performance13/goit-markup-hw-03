@@ -129,6 +129,15 @@ body {
   width: 696px;
 }
 
+.features {
+  background-color: rgb(245, 13, 13);
+}
+
+.features {
+  padding-top: 90px;
+  padding-bottom: 94px;
+}
+
 .features-subtitle {
   margin-bottom: 10px;
 }
@@ -186,6 +195,11 @@ body {
 .we-doing-item:not(:last-child) {
   margin-right: 30px;
 }
+
+/* .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
 
 .team .container {
   background-color: var(--bgc-team-section);
