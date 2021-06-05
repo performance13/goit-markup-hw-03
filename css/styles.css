@@ -117,7 +117,7 @@ body {
   background-color: var(--background-color-hero-footer);
   width: 1600px;
   height: 600px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .hero-title {
@@ -367,6 +367,10 @@ body {
 .filters-list :focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+}
+
+.portfolio {
+  background-color: rgba(25, 255, 213, 0.394);
 }
 
 .portfolio .container {
