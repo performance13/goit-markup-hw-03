@@ -183,6 +183,15 @@ body {
   margin-bottom: 94px;
 }
 
+.we-doing {
+  background-color: yellow;
+}
+
+.we-doing {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .we-doing-subtitle {
   /* width: 376px; */
   /* height: 42px; */
@@ -207,7 +216,7 @@ body {
 
 .team .container {
   background-color: var(--bgc-team-section);
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 
 .team-subtitle {
