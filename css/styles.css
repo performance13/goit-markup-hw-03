@@ -278,7 +278,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
-  letter-spacing: 0.03em;
 }
 
 .menu-container,
@@ -309,27 +308,23 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 2.142;
-  letter-spacing: 0.03em;
 }
 
 .features-text,
 .address {
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
 }
 
 .we-doing-subtitle,
 .team-subtitle {
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 0.03em;
 }
 
 .team-field-subtitle,
 .team-field-text {
   font-size: 16px;
-  letter-spacing: 0.03em;
 }
 
 .team-field-text {
@@ -386,7 +381,6 @@ body {
   font-size: 16px;
   line-height: 0.022;
   /* line-height: 1.375; */
-  letter-spacing: 0.03em;
 }
 
 .project-item {
@@ -406,7 +400,6 @@ body {
 .project-category {
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* fonts */
