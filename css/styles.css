@@ -274,7 +274,7 @@ body {
 /* fonts */
 .logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weigh700px;
   font-size: 26px;
   line-height: 1.192;
 }
@@ -295,14 +295,14 @@ body {
 }
 
 .hero-button {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
 }
 
 .features-subtitle {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 14px;
   line-height: 2.142;
 }
@@ -315,7 +315,7 @@ body {
 
 .we-doing-subtitle,
 .team-subtitle {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 36px;
 }
 
@@ -388,7 +388,7 @@ body {
 }
 
 .name-project-item {
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
