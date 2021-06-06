@@ -274,7 +274,6 @@ body {
 /* fonts */
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -289,7 +288,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -297,7 +295,6 @@ body {
 }
 
 .hero-button {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
