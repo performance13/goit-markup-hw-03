@@ -366,23 +366,6 @@ body {
 /*todo portfolio.html */
 /*? main */
 
-/* .header-nav .container-direction {
-  width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
-  
-  margin-left: auto;
-  margin-right: auto; */
-
-  background-color: var(--primary-white-color);
-  background-color: rgb(220, 191, 159);
-}
-
-.container-direction {
-  width: 1600px;
-  margin-bottom: 94px;
-}
-
 /* .filters-item :hover,
 .filters-item :focus {
   background-color: var(--accent-color);
@@ -400,6 +383,7 @@ body {
 }
 
 .portfolio .container {
+  margin-top: 94px;
   margin-bottom: 94px;
 }
 /*? main */
@@ -493,10 +477,6 @@ body {
 /*! border */
 .header-nav .container {
   outline: 2px solid tomato;
-}
-
-.header-nav .container-direction {
-  outline: 4px solid rgb(233, 45, 12);
 }
 
 .features .container,
