@@ -81,6 +81,7 @@ body {
 .top-container {
   display: flex;
   align-items: center;
+  /* justify-content: ; */
 }
 
 .top-contacts-container {
@@ -365,13 +366,13 @@ body {
 /*todo portfolio.html */
 /*? main */
 
-.header-nav .container-direction {
+/* .header-nav .container-direction {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  /* height: 80px; */
+  
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 
   background-color: var(--primary-white-color);
   background-color: rgb(220, 191, 159);
