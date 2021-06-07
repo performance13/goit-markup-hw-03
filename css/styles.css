@@ -90,11 +90,27 @@ body {
 }
 
 .menu-list {
-  padding: 32px 331px 32px 0;
+  display: flex;
+  /* padding: 32px 331px 32px 0; */
+}
+
+.menu-list .menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .menu-list-item-link {
   color: var(--primary-text-color);
+  /* display: block;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+}
+
+.top-contacts-list {
+  display: flex;
+}
+
+.top-contacts-list .top-contacts-item + .top-contacts-item {
+  margin-left: 50px;
 }
 
 .top-contacts-item-link {
@@ -487,4 +503,8 @@ body {
 
 .portfolio .container {
   outline: 2px solid rgb(99, 71, 255);
+}
+
+.menu-list li {
+  outline: 2px solid rgb(245, 13, 13);
 }
