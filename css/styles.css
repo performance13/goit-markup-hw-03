@@ -69,14 +69,14 @@ body {
 
 /*? header */
 .header-nav {
+  display: flex;
   width: 1600px;
-  /* height: 80px; */
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
-  justify-content: ;
+  align-items: center;
 
   background-color: var(--primary-white-color);
-  background-color: rgb(159, 220, 159);
 }
 
 .top-container {
@@ -478,9 +478,6 @@ body {
 /*todo portfolio.html */
 
 /*! border */
-.header-nav .container {
-  outline: 2px solid tomato;
-}
 
 .features .container,
 .we-doing .container,
@@ -498,8 +495,4 @@ body {
 
 .portfolio .container {
   outline: 2px solid rgb(99, 71, 255);
-}
-
-.menu-list li {
-  outline: 2px solid rgb(245, 13, 13);
 }
