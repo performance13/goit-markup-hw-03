@@ -234,7 +234,7 @@ body {
 }
 
 .we-doing {
-  background-color: yellow;
+  background-color: ;
 }
 
 .we-doing {
@@ -495,7 +495,6 @@ body {
 
 /*! border */
 
-.we-doing .container,
 .team .container {
   outline: 2px solid tomato;
 }
