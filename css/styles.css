@@ -250,7 +250,6 @@ body {
 
 .we-doing-list {
   display: flex;
-  width: calc(100%-4px);
 }
 
 .we-doing-item:not(:last-child) {
@@ -272,6 +271,7 @@ body {
 }
 
 .team-subtitle {
+  padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -379,7 +379,7 @@ body {
   font-size: 36px;
 }
 
-.team-field-text {
+.team-who-text {
   color: var(--secondary-text-color);
 }
 /* fonts */
@@ -503,4 +503,67 @@ body {
 
 .portfolio .container {
   outline: 2px solid rgb(99, 71, 255);
+}
+
+.card {
+  width: 270px;
+  height: 368px;
+}
+
+.card-container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #ccc; */
+}
+.card-set {
+  /* outline: 5px solid red; */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: -50px;
+  margin-left: -30px;
+}
+
+.card-set > .item {
+  /* outline: 1px solid teal; */
+
+  flex-basis: calc(100% / 4 - 30px);
+
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.im {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding-top: 30px;
+  padding-right: 59px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+
+  text-align: center;
+}
+
+.card-heading {
+  /* margin-top: 30px; */
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.item * {
+  /* outline: 1px solid red; */
 }
