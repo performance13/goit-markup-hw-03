@@ -138,6 +138,8 @@ body {
 
 .top-contacts-item-link {
   color: var(--secondary-text-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .menu-list .menu-item :hover,
