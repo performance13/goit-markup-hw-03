@@ -8,6 +8,7 @@
   --bgc-doing-section: #e5e5e5;
   --bgc-section: #f5f4fa;
   --background-color-hero-footer: #2f303a;
+  --line-header-bottom: #ececec;
 }
 
 /*! CANCELING DEFAULT STYLES */
@@ -81,6 +82,7 @@ body {
   align-items: center;
 
   background-color: var(--primary-white-color);
+  border-bottom: 1px solid var(--line-header-bottom);
 }
 
 .top-container {
