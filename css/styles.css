@@ -235,7 +235,8 @@ body {
 .we-doing {
   margin: 0 auto;
   width: 1600px;
-  background-color: var(--bgc-doing-section);
+  /* background-color: var(--bgc-doing-section); */
+  background-color: var(--primary-white-color);
   padding-bottom: 94px;
 }
 
@@ -256,21 +257,26 @@ body {
   margin-right: 30px;
 }
 
-.team {
-  margin: 0 auto;
-  width: 1600px;
-  background-color: var(--bgc-section);
-  padding-bottom: 94px;
-}
-
 .team .container {
+  /* outline: 2px solid tomato; */
+  padding-left: 0;
+  padding-right: 0;
+  /* justify-content: center; */
   /* margin: 0 auto; */
   /* width: 1600px; */
-  /* background-color: var(--bgc-section); */
-  /* padding-bottom: 94px; */
+}
+
+.team {
+  background-color: var(--bgc-section);
+  padding-bottom: 94px;
+  /* margin-bottom: 94px; */
+  margin: 0 auto;
+  width: 1600px;
 }
 
 .team-subtitle {
+  font-weight: 700px;
+  font-size: 36px;
   padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
@@ -278,19 +284,73 @@ body {
   text-align: center;
 }
 
+.team-field-subtitle {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
 .team-list {
   display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
 }
 
-.team-item {
-  width: 270px;
-  height: 368px;
-}
-.team-item:not(:last-child) {
-  margin-right: 30px;
+.team-field-text {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  margin-top: 10px;
 }
 
-/* maine */
+.im {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-team-item {
+  background-color: var(--primary-white-color);
+  /* flex-basis: calc(100% / 4 - 30px); */
+
+  /* margin-top: 50px; */
+  /* margin-left: 30px; */
+
+  /* width: 270px;
+  height: 368px; */
+}
+
+.team-field {
+  padding-top: 30px;
+  padding-right: auto;
+  padding-bottom: 30px;
+  padding-left: auto;
+
+  text-align: center;
+}
+
+.team-list {
+  /* margin-left: -30px; */
+}
+
+.team-list .card-team + .card-team {
+  margin-left: 30px;
+}
+
+.card-team {
+  /* flex-basis: calc(100% / 4 - 30px); */
+  /* margin-left: 30px; */
+
+  /* width: 270px;
+  height: 368px; */
+}
+
+/* .team-list * {
+  outline: 1px solid red;
+} */
 
 /*? footer */
 
@@ -373,15 +433,11 @@ body {
   line-height: 1.714;
 }
 
-.we-doing-subtitle,
-.team-subtitle {
+.we-doing-subtitle {
   font-weight: 700px;
   font-size: 36px;
 }
 
-.team-who-text {
-  color: var(--secondary-text-color);
-}
 /* fonts */
 
 /*todo portfolio.html */
@@ -497,73 +553,6 @@ body {
 
 /*! border */
 
-.team .container {
-  outline: 2px solid tomato;
-}
-
 .portfolio .container {
   outline: 2px solid rgb(99, 71, 255);
-}
-
-.card {
-  width: 270px;
-  height: 368px;
-}
-
-.card-container {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: #ccc; */
-}
-.card-set {
-  /* outline: 5px solid red; */
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-top: -50px;
-  margin-left: -30px;
-}
-
-.card-set > .item {
-  /* outline: 1px solid teal; */
-
-  flex-basis: calc(100% / 4 - 30px);
-
-  margin-top: 50px;
-  margin-left: 30px;
-}
-
-.im {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.card-content {
-  padding-top: 30px;
-  padding-right: 59px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-
-  text-align: center;
-}
-
-.card-heading {
-  /* margin-top: 30px; */
-}
-
-.card-text {
-  margin-top: 10px;
-}
-
-.item * {
-  /* outline: 1px solid red; */
 }
