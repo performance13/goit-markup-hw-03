@@ -483,6 +483,10 @@ body {
   /* margin-right: auto; */
 }
 
+.project-list {
+  display: flex;
+}
+
 .project-item {
   width: 370px;
   height: 404px;
