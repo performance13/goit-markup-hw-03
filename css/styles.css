@@ -431,9 +431,30 @@ body {
   padding-right: 0;
   /* padding-left: 15px;
   padding-right: 15px; */
-  outline: 5px solid tomato;
-  background-color: aquamarine;
+  outline: 10px solid tomato;
+  background-color: rgba(127, 255, 212, 0.306);
 }
 
 .project-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.project-set {
+  outline: 10px double springgreen;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.project-set .item {
+  outline: 5px solid royalblue;
+
+  flex-basis: calc(100% / 3);
+
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
