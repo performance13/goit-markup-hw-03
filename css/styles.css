@@ -9,6 +9,7 @@
   --bgc-section: #f5f4fa;
   --background-color-hero-footer: #2f303a;
   --line-header-bottom: #ececec;
+  --border-card: #eeeeee;
 }
 
 /*! CANCELING DEFAULT STYLES */
@@ -475,6 +476,10 @@ body {
 
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border-right: 1px solid var(--border-card);
+  border-bottom: 1px solid var(--border-card);
+  border-left: 1px solid var(--border-card);
 
   /* margin-left: 30px;
   margin-bottom: 30px; */
