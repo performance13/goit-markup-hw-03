@@ -438,23 +438,44 @@ body {
 .project-container {
   width: 1170px;
   margin: 0 auto;
+
+  padding-left: 0;
+  padding-right: 0;
+
+  overflow: hidden;
 }
 
 .project-set {
+  /* width: 1170px; */
+  width: 1200px;
+
   outline: 10px double springgreen;
 
   display: flex;
   flex-wrap: wrap;
 
+  padding: 0;
+
+  overflow: hidden;
+
   margin-right: -30px;
   margin-bottom: -30px;
+
+  /* margin-left: -30px;
+  margin-bottom: -30px; */
 }
 
 .project-set .item {
   outline: 5px solid royalblue;
 
-  flex-basis: calc(100% / 3);
+  /* flex-basis: calc(100% / 3-30px); */
+
+  /* width: 370px;
+  height: 404px; */
 
   margin-right: 30px;
   margin-bottom: 30px;
+
+  /* margin-left: 30px;
+  margin-bottom: 30px; */
 }
