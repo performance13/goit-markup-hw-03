@@ -76,6 +76,7 @@ body {
 .hat .container {
   display: flex;
   align-items: center;
+  justify-content: ;
 }
 
 .logo {
@@ -103,8 +104,12 @@ body {
   padding-bottom: 32px;
 }
 
-.menu-list .menu-item:not(:last-child) {
+/* .menu-list .menu-item:not(:last-child) {
   margin-right: 50px;
+} */
+
+.menu-list .menu-item + .menu-item {
+  margin-left: 50px;
 }
 
 /* .top-contacts-list .top-contacts-item:not(:last-child) {
@@ -118,6 +123,7 @@ body {
 .menu-list,
 .top-contacts-list {
   display: flex;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -129,9 +135,10 @@ body {
 }
 
 .top-contacts-link {
-  color: var(--secondary-text-color);
   padding-top: 15px;
   padding-bottom: 15px;
+
+  color: var(--secondary-text-color);
 }
 
 .menu-list .menu-item :hover,
