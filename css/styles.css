@@ -95,7 +95,6 @@ body {
 }
 
 .menu-list {
-  display: flex;
   margin-left: 93px;
 }
 
@@ -117,23 +116,17 @@ body {
   margin-left: 50px;
 }
 
-.top-contacts {
-  margin-left: auto;
-}
-
 .menu-list,
 .top-contacts-list {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
 
-.top-contacts-list {
-  display: flex;
-
-  /* margin-left: 306px; */
-  /* margin-left: 331px; */
+.top-contacts {
+  margin-left: auto;
 }
 
 .top-contacts-link {
@@ -143,10 +136,7 @@ body {
 }
 
 .menu-list .menu-item :hover,
-.menu-list .menu-item :focus {
-  color: var(--accent-color);
-}
-
+.menu-list .menu-item :focus,
 .top-contacts-list .top-contacts-item :hover,
 .top-contacts-list .top-contacts-item :focus {
   color: var(--accent-color);
