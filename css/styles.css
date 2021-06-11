@@ -108,6 +108,7 @@ body {
 }
 
 .menu-list-item-link {
+  font-weight: 500px;
   color: var(--primary-text-color);
   padding-top: 15px;
   padding-bottom: 15px;
