@@ -58,8 +58,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .img {
@@ -102,7 +100,7 @@ body {
 
 .menu-list {
   display: flex;
-  margin-left: 50px;
+  margin-left: 93px;
 }
 
 .menu-list .menu-item:not(:last-child) {
@@ -185,6 +183,10 @@ body {
 }
 
 .hero-button {
+  font-weight: 700px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
   width: 200px;
   height: 50px;
   margin: 30px 700px 200px 700px;
@@ -207,12 +209,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  letter-spacing: 0.06em;
-}
-
-.hero-button {
-  font-weight: 700px;
-  line-height: 1.875;
   letter-spacing: 0.06em;
 }
 
