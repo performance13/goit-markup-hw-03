@@ -92,14 +92,15 @@ body {
 
 .menu-list {
   margin-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .menu-link {
+  display: block;
+
   color: var(--primary-text-color);
-  padding-top: 15px;
-  padding-bottom: 15px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-list .menu-item:not(:last-child) {
