@@ -302,14 +302,12 @@ body {
   font-weight: 500px;
   font-size: 16px;
   line-height: 1.187;
-  letter-spacing: 0.03em;
 }
 
 .team-field-text {
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -318,37 +316,38 @@ body {
 }
 
 /*? footer */
+.coordinates {
+  background-color: var(--background-color-hero-footer);
+}
 
-.footer-address .logo {
+.coordinates .container {
+  padding: 60px 0;
+
+  background-color: var(--background-color-hero-footer);
+}
+
+.coordinates .logo {
   display: block;
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 
-.footer-address .container {
-  width: 1600px;
-  height: 252px;
-  background-color: var(--background-color-hero-footer);
-  padding: 60px 1154px 60px 215px;
-  margin-bottom: -9px;
-}
-
-.footer-address .accent {
+.coordinates .accent {
   color: var(--accent-color);
 }
 
-.address {
+.address-list {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.address-link-place {
+.coordinates .place {
   color: var(--primary-white-color);
   margin-bottom: 9px;
 }
 
-.address-link-mail,
-.address-link-phone {
+.coordinates .mail,
+.coordinates .phone {
   color: var(--address-link-mail-phone-color);
   margin-bottom: 9px;
 }
