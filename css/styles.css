@@ -114,17 +114,9 @@ body {
   padding-bottom: 32px;
 }
 
-/* .menu-list .menu-item:not(:last-child) {
-  margin-right: 50px;
-} */
-
 .menu-list .menu-item + .menu-item {
   margin-left: 50px;
 }
-
-/* .top-contacts-list .top-contacts-item:not(:last-child) {
-  margin-right: 50px;
-} */
 
 .top-contacts-list .top-contacts-item + .top-contacts-item {
   margin-left: 50px;
@@ -366,7 +358,7 @@ body {
   color: var(--accent-color);
 }
 
-/* portfolio.html */
+/*? portfolio.html */
 
 .portfolio {
   padding-top: var(--section-indent);
