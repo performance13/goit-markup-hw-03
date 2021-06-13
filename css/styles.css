@@ -390,6 +390,7 @@ body {
 
 .portfolio-list {
   display: flex;
+
   margin-bottom: 50px;
 
   justify-content: center;
@@ -401,6 +402,7 @@ body {
 
 .portfolio-button {
   padding: 6px 22px;
+
   border: 1px solid transparent;
   border-radius: 4px;
 
