@@ -250,6 +250,7 @@ body {
 .features-text {
   font-size: 14px;
   line-height: 1.714;
+
   color: var(--secondary-text-color);
 }
 
@@ -260,7 +261,6 @@ body {
 .doing {
   padding-bottom: var(--section-indent);
 
-  /* background-color: var(--bgc-doing-section); */
   background-color: var(--primary-white-color);
 }
 
