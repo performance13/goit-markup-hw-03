@@ -266,10 +266,11 @@ body {
 
 .doing-subtitle {
   margin-bottom: 50px;
-  text-align: center;
 
   font-weight: 700;
   font-size: 36px;
+
+  text-align: center;
 }
 
 .doing-list {
@@ -292,6 +293,7 @@ body {
 
   font-weight: 700;
   font-size: 36px;
+
   text-align: center;
 }
 
@@ -320,8 +322,10 @@ body {
 .team-field-text {
   font-size: 16px;
   line-height: 1.187;
-  text-align: center;
+
   color: var(--secondary-text-color);
+
+  text-align: center;
 }
 
 .team-list .team-item + .team-item {
