@@ -71,6 +71,7 @@ body {
 
 .img {
   display: block;
+
   max-width: 100%;
   height: auto;
 }
@@ -87,6 +88,7 @@ body {
 
 .hat .container {
   display: flex;
+
   align-items: center;
 }
 
@@ -95,6 +97,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.173;
+
   color: var(--second-color-logo-header);
 }
 
@@ -114,10 +117,10 @@ body {
 .menu-link {
   display: block;
 
-  color: var(--primary-text-color);
-
   padding-top: 32px;
   padding-bottom: 32px;
+
+  color: var(--primary-text-color);
 }
 
 .menu-list .menu-item + .menu-item {
