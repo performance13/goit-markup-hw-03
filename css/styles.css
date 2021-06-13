@@ -352,7 +352,7 @@ body {
 }
 
 .address-list {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 
   font-size: 14px;
   line-height: 1.714;
