@@ -93,7 +93,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.173;
   color: var(--second-color-logo-header);
 }
 
@@ -316,10 +316,6 @@ body {
 
 /*? footer */
 .coordinates {
-  background-color: var(--background-color-hero-footer);
-}
-
-.coordinates .container {
   padding: 60px 0;
 
   background-color: var(--background-color-hero-footer);
@@ -345,10 +341,13 @@ body {
   margin-bottom: 9px;
 }
 
-.coordinates .mail,
-.coordinates .phone {
+.coordinates .mail {
   color: var(--address-link-mail-phone-color);
   margin-bottom: 9px;
+}
+
+.coordinates .phone {
+  color: var(--address-link-mail-phone-color);
 }
 
 .address-list :hover,
@@ -409,7 +408,7 @@ body {
   display: flex;
   margin-left: var(--card-indent);
   margin-bottom: var(--card-indent);
-  /* flex-basis: calc(100% / 3- var(--card-indent)); */
+  flex-basis: calc(100% / 3 - var(--card-indent));
 }
 
 .card {
