@@ -203,7 +203,7 @@ body {
   letter-spacing: 0.06em;
 }
 .hero-button:hover {
-  background: var(--сlick-to-order);
+  background-color: var(--сlick-to-order);
 }
 
 .hero-button,
