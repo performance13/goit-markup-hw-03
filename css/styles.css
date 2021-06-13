@@ -341,8 +341,10 @@ body {
 
 .coordinates .logo {
   display: block;
-  color: var(--primary-white-color);
+
   margin-bottom: 20px;
+
+  color: var(--primary-white-color);
 }
 
 .coordinates .accent {
@@ -350,19 +352,22 @@ body {
 }
 
 .address-list {
+  margin-bottom: 60px;
+
   font-size: 14px;
   line-height: 1.714;
-  margin-bottom: 60px;
 }
 
 .coordinates .place {
-  color: var(--primary-white-color);
   margin-bottom: 9px;
+
+  color: var(--primary-white-color);
 }
 
 .coordinates .mail {
-  color: var(--address-link-mail-phone-color);
   margin-bottom: 9px;
+
+  color: var(--address-link-mail-phone-color);
 }
 
 .coordinates .phone {
