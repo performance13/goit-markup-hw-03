@@ -76,6 +76,11 @@ body {
   height: auto;
 }
 
+.hero-button,
+.portfolio-button {
+  cursor: pointer;
+}
+
 .address-list {
   font-style: normal;
 }
@@ -211,11 +216,6 @@ body {
 
 .hero-button:hover {
   background-color: var(--сlick-to-order);
-}
-
-.hero-button,
-.portfolio-button {
-  cursor: pointer;
 }
 
 .hero-title,
