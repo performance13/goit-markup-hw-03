@@ -38,17 +38,10 @@ a {
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  letter-spacing: 0.03em;
   font-size: 16px;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-}
-
-.filters-button {
-  padding: 0;
-  border: 0;
-
-  background-color: transparent;
 }
 
 .container {
@@ -58,6 +51,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.filters-button {
+  padding: 0;
+  border: 0;
+
+  background-color: transparent;
 }
 
 .hidden-title {
