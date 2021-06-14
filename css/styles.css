@@ -452,7 +452,7 @@ body {
   margin-left: var(--card-indent);
   margin-bottom: var(--card-indent);
 
-  flex-basis: calc(100% / 3 - var(--card-indent));
+  /* flex-basis: calc(100% / 3 - var(--card-indent)); */
 }
 
 .card {
