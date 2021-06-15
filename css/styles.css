@@ -215,7 +215,7 @@ body {
 }
 
 .hero-button:hover {
-  background-color: var(--click-to-order);
+  background-color: var(--click-order);
 }
 
 .hero-title,
