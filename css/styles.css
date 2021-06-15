@@ -12,7 +12,7 @@
   --border-card: #eeeeee;
   --section-indent: 94px;
   --card-indent: 30px;
-  --сlick-to-order: #188ce8;
+  --click-to-order: #188ce8;
 }
 
 /*! CANCELING DEFAULT STYLES */
@@ -215,7 +215,7 @@ body {
 }
 
 .hero-button:hover {
-  background-color: var(--сlick-to-order);
+  background-color: var(--click-to-order);
 }
 
 .hero-title,
